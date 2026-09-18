@@ -9,7 +9,7 @@ app.post('/register', authController.registerUser);
 app.post('/login', authController.loginUser);
 
 app.get('/',(req,res)=>{
-    res.send("App is running on the port 3000 you can check")
+    res.send("App is running on the port 3000 you can check sonal")
 })
 
 module.exports = app;
